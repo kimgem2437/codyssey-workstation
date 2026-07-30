@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# 환경변수 및 비밀정보
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 로그
+*.log
+
+# IDE 개인 설정
+.vscode/
+.idea/
+
+# 임시 파일
+*.tmp
+*.swp
